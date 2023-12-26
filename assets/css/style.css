@@ -20,7 +20,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #040404; /*url("../img/bg.jpg") top right no-repeat;*/
   background-size: cover;
   left: 0;
   right: 0;
@@ -95,7 +95,7 @@ h6 {
 
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #18d26e;
+  border-bottom: 2px solid #da80d8e8;
   padding-bottom: 6px;
 }
 
@@ -265,7 +265,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #fff;
+  color: #da80d8e8;
 }
 
 /**
